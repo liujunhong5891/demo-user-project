@@ -69,7 +69,7 @@ spec:
         workspace: source-volume
       params:
       - name: url
-        value: https://github.com/lanbingcloud/demo-user-project.git
+        value: https://github.com/liujunhong5891/demo-user-project.git
       - name: revision
         value: $(params.REVISION)
       - name: subdirectory
@@ -85,7 +85,7 @@ spec:
         workspace: source-volume
       params:
       - name: url
-        value: git@github.com:lanbingcloud/demo-user-deployments.git
+        value: git@github.com:liujunhong5891/demo-user-deployments.git
       - name: revision
         value: $(params.REVISION)
       - name: subdirectory
