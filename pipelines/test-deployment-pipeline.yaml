@@ -164,7 +164,7 @@ spec:
       - name: COMMIT
         value: $(tasks.manifest-update.results.commit)
       - name: TIMEOUT
-        value: 300
+        value: 360
       - name: NAMESPACE
         value: user-pipelines
       - name: EVENTBUS
